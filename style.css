@@ -73,6 +73,8 @@ header h1 {
 .row-2 img {
   width: 250px;
   padding: 10px;
+  border: 10px solid red;
+  border-radius: 50%;
 }
 .row-3 {
   width: 30%;
@@ -81,8 +83,8 @@ header h1 {
   width: 80%;
   margin: 70px auto;
 }
-.text-part{
-  width: 40%;
+.text-part {
+  width: 60%;
 }
 .img-box-1 img {
   width: 400px;
@@ -91,15 +93,15 @@ header h1 {
 }
 .img-box-1 img:hover {
   -webkit-transform: scale(0.8);
--ms-transform: scale(0.8);
-transform: scale(0.8);
-transition: 0.5s ease;
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 0.5s ease;
 }
 .img-box-1 {
   display: flex;
   justify-content: space-between;
 }
-#subscribe{
+#subscribe {
   width: 80%;
   margin: 70px auto;
   text-align: center;
@@ -107,13 +109,13 @@ transition: 0.5s ease;
   padding: 50px 0;
   border-radius: 20px;
 }
-.input-text{
+.input-text {
   width: 350px;
   padding: 15px;
   border-radius: 20px 0px 0px 20px;
   border: 0px;
 }
-.input-btn{
+.input-btn {
   width: 120px;
   padding: 15px;
   border-radius: 0px 20px 20px 0px;
@@ -122,12 +124,12 @@ transition: 0.5s ease;
   font-size: 15px;
   color: #fff;
 }
-#footer{
+#footer {
   background: #000;
   color: white;
   padding: 50px 0;
 }
-.part-1{
+.part-1 {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -135,10 +137,10 @@ transition: 0.5s ease;
   text-align: center;
   align-items: center;
 }
-.part-2{
+.part-2 {
   text-align: center;
 }
-.part-2 img{
+.part-2 img {
   width: 45px;
   padding-left: 10px;
   padding: 10px;
